@@ -1,0 +1,290 @@
+/*------ HOME -------*/
+
+.mama{
+  display: flex;
+  padding: 0 15px;
+}
+
+.homeBox{
+ display: flex;
+ margin: 15px 0; 
+}
+
+.homeSidebarBox{
+  width: 25%;
+}
+
+.homeArticleBox{
+  margin-left: 15px;
+  width: 75%;
+}  
+
+.slider{
+  _background-color: darkviolet;
+}
+
+.slider span{
+  display: block;
+  font-size: 2rem;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: 'Lato' sans-serif;
+  font-weight: 100;
+}
+
+.article{
+  padding: 20px;
+}
+
+.articleTitle h3{
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+
+.articleTitle span{
+  font-size: 14px;
+  display: block;
+  font-style: italic;
+  font-weight: 300;
+  padding: 12px 0;
+}
+
+.articleImage{
+  _padding: 20px;
+  width: 100%;
+}
+
+.articleImage img{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.articleText{
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.twocol{
+  display: flex;
+  column-gap: 15px;
+  margin-top: 15px;
+}
+
+
+
+
+
+/*------ ABOUT -------*/
+
+
+
+
+
+
+
+
+
+
+/*-------- EXERCISES --------*/
+
+.xMama{
+  display: flex;
+  margin: 15px;
+  
+}
+
+.xSidebar{
+  width: 25%;
+}
+
+/* contains both all cards */
+.xContainer{
+  margin-left: 15px;
+  background-color: #fff;;
+}
+
+.xTitle{
+  padding: 20px 10px;
+}
+
+.xTitle span{
+  padding: 20px 10px;
+  font-size: 3rem;
+  font-style: 'Lato', sans-serif;
+  border-bottom: 1px solid slategray;
+  display: block;
+  text-align: center;
+}
+
+.xTitle p{
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+}
+
+.xbenefits{
+  font-weight: 300;
+}
+
+.drumFitness{
+  border-top: solid 15px whitesmoke;
+  padding: 20px;
+  text-align: center;
+}
+
+.drumFitness span{
+  font-style: 'Lato', sans-serif;
+  font-size: 2rem;
+}
+
+.xBox{
+  padding: 20px 10px;
+}
+
+.xCardTitle{
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+
+.xMeta{
+  font-size: 14px;
+    display: block;
+    font-weight: thin;
+    font-style: italic;
+    color: gray;
+}
+
+.xImg{
+  width: 100%;
+  padding: 10px;
+}
+
+.xImg img{
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.xContentOne{
+  display: flex;
+}
+
+.xContentTwo{
+  display: flex;
+}
+
+
+
+/*--------- INFLUENCES ---------*/
+
+.influencesContainer{
+  margin: 1.2rem;
+  display: flex;
+  background-color: rgb(182, 129, 129);
+}
+
+.sideContainer{
+padding-right: 1rem;
+background-color: burlywood;
+}
+
+/* .contentSection{
+
+} */
+
+.para{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid black;
+  padding: 2rem 0;
+}
+
+.pictureanddetails{
+  display: flex;
+  margin: 10px;
+  padding: 15px 0;
+  background-color: darkcyan;
+}
+
+.details li{
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Lato', sans-serif;;
+}
+
+
+
+
+
+/*------ GEAR --------*/
+
+
+
+
+
+
+
+
+/*-------- CONTACT ---------*/
+
+.fContainer{
+  display: flex;
+  
+}
+
+.fSidebar{
+  width: 25%;
+  margin: 0;
+}
+
+form{
+  display: block;
+  margin-left: 15px;
+  width: 75%;
+ 
+  
+}
+
+.fFlex{
+  width: 100%;
+  
+  padding: 15px;
+  border: solid 15px 0 0 15px white;
+}
+
+.fInput{
+  display: block;
+  padding: 5px 0;
+}
+
+.forSpanElements{
+  display: block;
+  width: 80%;
+  margin:0;
+}
+textarea{
+  height: 300px;
+  margin-top: 15px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 350px;
+  scroll-behavior: auto;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding:20px;
+}

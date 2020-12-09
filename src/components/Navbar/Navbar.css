@@ -1,0 +1,138 @@
+.navbar{
+  display: flex;
+  background-color: rgba(45, 93, 92, 0.9);
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  position: fixed;
+  width: 90%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+.logoContainer{
+  justify-self: start;
+  margin-left: 20px;
+}
+
+.fa-bars{
+  color:whitesmoke;
+}
+
+.nav-menu{
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  width: 60vw;
+  margin-right: 2rem;
+}
+
+.menu-icon{
+  display: none;
+}
+
+/* this is from the menuItems.js */
+.navItem{
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navItem:hover{
+  background-color: #a9ddff;
+  transition: all 0.5s ease-out;
+  color: black;
+  border-radius: 5px;
+}
+
+.search{
+  width: 35%;
+}
+
+button{
+  background-color: whitesmoke;
+  border: none;
+}
+
+              /* MEDIA QUERIES */
+
+
+@media screen and (max-width:1024px) {
+
+  .navbar{
+    position: relative;
+    position: fixed;
+    top: 0;
+    width: 90%;
+  }
+
+  .nav-menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    height: 600px;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 00.5s ease;
+  }
+  
+  .nav-menu.active{
+    background-color:  #3E67E6;
+    left: 0;
+    opacity: 1;
+    transition: all 00.5s ease;
+    z-index: 1;
+  }
+
+
+  /* this is from the menuItems.js */
+  .navItem{
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+  
+  .navItem:hover{
+    background-color:#a9ddff;
+    transition: all 0.5s ease;
+    color: #2b2626;
+    border-radius: 0;
+    width: 100%;
+  }
+  
+  .logoContainer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(25%, 50%);
+  }
+
+  .menu-icon{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  .fa-times{
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  
+  .search{
+    display: none;
+  }
+}
+
+

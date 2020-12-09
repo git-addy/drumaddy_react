@@ -1,0 +1,12 @@
+.textPromo{
+  background-color: lightgreen;
+}
+
+
+.textFull{
+  font-size: 16px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  background-color: khaki;
+  display: none;
+}
