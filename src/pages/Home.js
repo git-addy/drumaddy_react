@@ -27,7 +27,7 @@ const Home = (props) => {
           <div><Card style={{ marginTop: '15px' }}>
             <div className="article">
               <div className="articleTitle">
-                <h3>HOMEPAGE, Welcome!</h3>
+                <h3>Welcome to drumaddy!</h3>
                 <span>By addy November 24, 2020</span>
               </div>
               <div className="articleImage">
